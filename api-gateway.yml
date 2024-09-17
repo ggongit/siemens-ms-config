@@ -11,7 +11,7 @@ management:
       show-values: always
 eureka:
   client:
-    serviceUrl:
+    service-url:
       defaultZone: http://eurekaservice:8761/eureka/
   instance:
     prefer-ip-address: true
